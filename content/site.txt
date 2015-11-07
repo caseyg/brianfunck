@@ -6,7 +6,7 @@ Author: Bastian Allgeier GmbH
 
 ----
 
-Description: Test pushing dev branch.
+Description: Test pushing dev branch. Test repo rename + deploy.
 
 ----
 
