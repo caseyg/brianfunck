@@ -28,3 +28,31 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+c::set('routes', array(
+  array(
+    'pattern' => '(:any)',
+    'action'  => function($uid) {
+
+      $page = page($uid);
+
+      if(!$page) $page = page('work/' . $uid);
+      if(!$page) $page = site()->errorPage();
+
+      return site()->visit($page);
+
+    }
+  ),
+  array(
+    'pattern' => 'work/(:any)',
+    'action'  => function($uid) {
+      go($uid);
+    }
+  ),
+  array(
+    'pattern' => '/',
+    'action' => function () {
+      return go('/documentary');
+    }
+  )
+));

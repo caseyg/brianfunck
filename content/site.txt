@@ -2,16 +2,16 @@ Title: Brian Funck
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Brian Funck
 
 ----
 
-Description: Test pushing dev branch. Test repo rename + deploy.
+Description: Film & Television Editor
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: 
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: 
