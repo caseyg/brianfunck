@@ -1068,7 +1068,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Courier Prime", Arial, sans-serif;
+  font-family: courier-prime, "Courier Prime", "Courier New", monospace;
   font-size: 14px;
   line-height: 1.42857;
   color: #000;
@@ -1083,10 +1083,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #eeeeee;
+  color: #777777;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #c8c8c8;
+    color: #515151;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -3084,7 +3084,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #eeeeee;
+  color: #777777;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
@@ -3094,7 +3094,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #c8c8c8;
+    color: #515151;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
@@ -3579,7 +3579,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #eeeeee; }
+    border-color: #777777; }
   .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
@@ -4093,7 +4093,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #eeeeee;
+      color: #777777;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4110,7 +4110,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     z-index: 3;
-    color: #c8c8c8;
+    color: #515151;
     background-color: #eeeeee;
     border-color: #ddd; }
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -4272,7 +4272,7 @@ a.label:hover, a.label:focus {
     top: 0;
     padding: 1px 5px; }
   .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #eeeeee;
+    color: #777777;
     background-color: #fff; }
   .list-group-item > .badge {
     float: right; }
@@ -4341,7 +4341,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #eeeeee; }
+  border-color: #777777; }
 
 .alert {
   padding: 15px;
@@ -5172,7 +5172,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Courier Prime", Arial, sans-serif;
+  font-family: courier-prime, "Courier Prime", "Courier New", monospace;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5278,7 +5278,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Courier Prime", Arial, sans-serif;
+  font-family: courier-prime, "Courier Prime", "Courier New", monospace;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

@@ -32,7 +32,7 @@ $body-bg:               $gray-lighter !default;
 $text-color:            $gray-base !default;
 
 //** Global textual link color.
-$link-color:            $gray-lighter !default;
+$link-color:            $gray-light !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
@@ -43,7 +43,7 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Courier Prime", Arial, sans-serif !default;
+$font-family-sans-serif:  courier-prime, "Courier Prime", "Courier New", monospace !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
