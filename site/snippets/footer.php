@@ -4,10 +4,6 @@
       <?php echo $site->copyright()->kirbytext() ?>
     </div>
 
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
-
   </footer>
 </section>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
