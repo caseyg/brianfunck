@@ -48,11 +48,5 @@ c::set('routes', array(
     'action'  => function($uid) {
       go($uid);
     }
-  ),
-  array(
-    'pattern' => '/',
-    'action' => function () {
-      return go('/documentary');
-    }
   )
 ));
