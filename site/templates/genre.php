@@ -6,7 +6,11 @@
         <?php echo $page->text()->kirbytext() ?>
       </div>
     </div>
-    <?php snippet('posters'); ?>
+    <?php if($page->featured()->isTrue()): ?>
+	    <?php snippet('posters-featured'); ?>
+	<?php else: ?>
+	    <?php snippet('posters'); ?>
+	<?php endif ?>
   </main>
 
 <?php snippet('footer') ?>

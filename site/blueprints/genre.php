@@ -5,6 +5,10 @@ pages: false
 files:
   sortable: true
   fields:
+    featured:
+      label: Featured?
+      type: toggle
+      default: false
     title:
       label: Title
       type: text
@@ -18,3 +22,7 @@ fields:
   text:
     label: Text
     type:  textarea
+  featured:
+    label: Display featured works?
+    type: toggle
+    default: false
