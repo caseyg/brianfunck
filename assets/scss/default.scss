@@ -1,0 +1,70 @@
+@import "bootstrap";
+
+* {
+	background: rgba(0,0,0,.05);
+}
+
+.row {
+	margin: 20px auto;
+}
+
+figure img, .posters img {
+	max-width: 100%;
+}
+
+hr {
+	border-top: 1px solid #fff;
+}
+
+h1, h2, nav {
+	font-size: $font-size-large;
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+
+.sidebar {
+	background: #fff;
+	height: 100%;
+}
+
+.poster {
+    margin: 15px 0 15px 0;
+    line-height: 20px;
+}
+
+.active, header a:hover {
+	color: $gray-base;
+	font-weight: bold;
+}
+
+.bio-photo {
+	margin-bottom: 20px;
+}
+
+// Fitvids
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+iframe,
+embed,
+object {
+	max-width: 100%;
+}
+
+// Flickity
+
+.gallery {
+  margin-bottom: 20px;
+}
+
+.gallery-nav .gallery-cell {
+  border: 5px solid #fff;
+  cursor: pointer;
+  margin-right:10px;
+}
+.gallery-nav .gallery-cell.is-nav-selected {
+  border: 5px solid #000;
+}

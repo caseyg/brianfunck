@@ -7,13 +7,16 @@ files:
 fields:
   title:
     label: Title
-    type:  text
-  year:
-    label: Year
-    type:  text
-  text:
-    label: Text
-    type:  textarea
-  tags:
-    label: Tags
-    type:  tags
+    type: text
+  link:
+    label: Watch Trailer Link
+    type: url
+  reviews: 
+    label: Reviews
+    type: markdown
+  synopsis:
+    label: Synopsis
+    type: textarea
+  credits:
+    label: Credits
+    type: textarea
