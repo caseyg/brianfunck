@@ -1,15 +1,18 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Work
-pages: project
+title: Watch Clips
+pages: true
 files:
   sortable: true
   fields:
     title:
       label: Title
       type: text
-    link:
-      label: Link
+    length:
+      label: Clip Length
+      type: text
+    vimeo:
+      label: Trailer Vimeo ID
       type: text
 fields:
   title:
@@ -18,3 +21,4 @@ fields:
   text:
     label: Text
     type:  textarea
+    size:  large

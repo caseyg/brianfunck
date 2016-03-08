@@ -15,19 +15,16 @@
 </head>
 <body>
 <section class="container">
-
-  <header class="header row">
-    <section class="col-lg-3 col-sm-4 col-xs-12">
-      <h1><a <?php e($pages->get('home')->isOpen(), ' class="active"') ?> href="/"><?php echo $site->title() ?><br>
-      <?php echo $site->description() ?></a></h1>
-    </section>
-    <section class="col-lg-offset-1 col-lg-2 col-sm-4 col-xs-6">
-      <?php snippet('menu') ?>
-    </section>
-    <section class="col-lg-2 col-sm-4 col-xs-6">
+  <div class="row">
+    <nav class="col-xs-12 col-md-3">
+      <h1><a <?php e($pages->get('home')->isOpen(), ' class="active"') ?> href="/"><?php echo $site->title() ?></a></h1>
       <ul class="menu list-unstyled">
-        <li><a <?php e($pages->get('bio-press')->isOpen(), ' class="active"') ?> href="/bio-press">Bio + Press</a></li>   
-        <li><a href="http://www.imdb.com/name/nm1363489/">IMDB Profile</a></li>   
+        <?php foreach($pages->visible() as $p): ?>
+        <li>
+          <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+        </li>
+        <?php endforeach ?>
         <li><a href="mailto:funckdren@gmail.com">Email</a></li>   
-    </section>
-  </header>
+      </ul>
+    </nav>
+    <div class="content col-xs-12 col-md-9">

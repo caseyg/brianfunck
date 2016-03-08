@@ -36,7 +36,7 @@ c::set('routes', array(
 
       $page = page($uid);
 
-      if(!$page) $page = page('work/' . $uid);
+      if(!$page) $page = page('home/' . $uid);
       if(!$page) $page = site()->errorPage();
 
       return site()->visit($page);
@@ -44,7 +44,7 @@ c::set('routes', array(
     }
   ),
   array(
-    'pattern' => 'work/(:any)',
+    'pattern' => 'home/(:any)',
     'action'  => function($uid) {
       go($uid);
     }

@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+* {
+	background: rgba(0,0,0,.05);
+}
+
 .row {
 	margin: 20px auto;
 }
@@ -12,19 +16,16 @@ hr {
 	border-top: 1px solid #fff;
 }
 
-header {
-	&, a {color: $gray-light;}
-	h1, h2, p {
-		text-transform: uppercase;
-		letter-spacing: 1px;
-	}
-}
-
-h1, h2 {
-	font-size: $font-size-base;
+h1, h2, nav {
+	font-size: $font-size-large;
 	padding: 0;
 	margin: 0;
 	line-height: 20px;
+}
+
+.sidebar {
+	background: #fff;
+	height: 100%;
 }
 
 .poster {
@@ -33,7 +34,6 @@ h1, h2 {
 }
 
 .active, header a:hover {
-	background: #fff;
 	color: $gray-base;
 	font-weight: bold;
 }

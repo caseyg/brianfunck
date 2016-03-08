@@ -1,9 +1,0 @@
-Title: Documentary Work
-
-----
-
-Text: Brian has edited feature documentaries on subjects ranging from the Lockerbie bombing, to HIV in America, Orson Welles, nanotechnology, and more. His work has been seen in theaters and at film festivals, including Sundance, Tribeca, Full Frame, and AFI Hot Docs.
-
-----
-
-Featured: true
