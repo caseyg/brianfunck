@@ -1,11 +1,22 @@
 @import "bootstrap";
 
 * {
-	background: rgba(0,0,0,.05);
+//	background: rgba(0,0,0,.05);
+}
+
+body {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .row {
 	margin: 20px auto;
+}
+
+nav {
+	background: #fff;
 }
 
 figure img, .posters img {
@@ -14,13 +25,6 @@ figure img, .posters img {
 
 hr {
 	border-top: 1px solid #fff;
-}
-
-h1, h2, nav {
-	font-size: $font-size-large;
-	padding: 0;
-	margin: 0;
-	line-height: 20px;
 }
 
 .sidebar {

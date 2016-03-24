@@ -16,15 +16,17 @@
 <body>
 <section class="container">
   <div class="row">
-    <nav class="col-xs-12 col-md-3">
-      <h1><a <?php e($pages->get('home')->isOpen(), ' class="active"') ?> href="/"><?php echo $site->title() ?></a></h1>
-      <ul class="menu list-unstyled">
-        <?php foreach($pages->visible() as $p): ?>
-        <li>
-          <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-        </li>
-        <?php endforeach ?>
-        <li><a href="mailto:funckdren@gmail.com">Email</a></li>   
-      </ul>
+    <nav class="col-xs-12 col-md-3 lead">
+      <div class="row">
+        <h1 class="lead"><a <?php e($pages->get('home')->isOpen(), ' class="active"') ?> href="/"><?php echo $site->title() ?></a></h1>
+        <ul class="menu list-unstyled">
+          <?php foreach($pages->visible() as $p): ?>
+          <li>
+            <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+          </li>
+          <?php endforeach ?>
+          <li><a href="mailto:funckdren@gmail.com">Email</a></li>   
+        </ul>
+      </div>
     </nav>
     <div class="content col-xs-12 col-md-9">
