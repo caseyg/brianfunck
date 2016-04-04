@@ -1,7 +1,11 @@
 <?php snippet('header') ?>
 <div class="row">
-	<h1 class="col-xs-"><?php echo $page->title() ?></h1>
-	<a href="<?php echo $page->link() ?>">Watch Trailer</a>
+	<div class="col-xs-12">
+		<h1><?php echo $page->title() ?></h1>
+		<?php if(!$page->link_trailer()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_trailer() ?>">Watch Trailer</a><?php endif ?>
+		<?php if(!$page->link_clip()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_clip() ?>">Watch Clip</a><?php endif ?>
+		<?php if(!$page->link_film()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_film() ?>">Watch Film</a><?php endif ?>
+	</div>
 </div>
 <div class="row">
 	<figure class="col-xs-12">

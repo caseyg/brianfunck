@@ -8,9 +8,18 @@ fields:
   title:
     label: Title
     type: text
-  link:
-    label: Watch Trailer Link
+  link-film:
+    label: "Watch Film" Link
     type: url
+    width: 1/3
+  link-clip:
+    label: "Watch Clip" Link
+    type: url
+    width: 1/3
+  link-trailer:
+    label: "Watch Trailer" Link
+    type: url
+    width: 1/3
   reviews: 
     label: Reviews
     type: markdown
