@@ -2,4 +2,4 @@ Title: Work
 
 ----
 
-Text: Brian Funck is a film and television editor based  in Boston... (link: /bio-press text: read&nbsp;more&nbsp;→)
+Text: Brian Funck is a film and television editor based  in Boston... (link: /about text: read&nbsp;more&nbsp;→)
