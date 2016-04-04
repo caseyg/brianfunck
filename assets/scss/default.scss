@@ -4,27 +4,27 @@
 //	background: rgba(0,0,0,.05);
 }
 
-body {
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.row {
-	margin: 20px auto;
-}
-
-nav {
-	background: #fff;
+.container {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 figure img, .posters img {
 	max-width: 100%;
 }
 
+h1, h2 {
+    font-weight: 300;
+    margin-top: 0;
+	line-height: 1.4;
+	font-size: floor(($font-size-base * 1.15));
+	@media (min-width: $screen-sm-min) {
+		font-size: ($font-size-base * 1.5);
+	}
+}
+
 hr {
-	border-top: 1px solid #fff;
+	border-top: 1px solid #ccc;
 }
 
 .sidebar {
@@ -33,7 +33,7 @@ hr {
 }
 
 .poster {
-    margin: 15px 0 15px 0;
+    margin: 0 0 30px 0;
     line-height: 20px;
 }
 

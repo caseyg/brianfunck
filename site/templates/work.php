@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <div class="row">
-  <div class="text lead">
+  <div class="text lead col-xs-12">
     <?php echo $page->text()->kirbytext() ?>
   </div>
 </div>

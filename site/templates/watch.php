@@ -1,10 +1,8 @@
 <?php snippet('header') ?>
 <div class="row">
-	<div class="gallery gallery-main">
-			<div class="video col-xs-12">
-				<iframe src="https://player.vimeo.com/video/<?php echo $page->children()->first()->vimeo() ?>?color=ffffff&portrait=0" width="1110" height="624" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<p><?php echo $page->children()->first()->title(); ?> (<?php echo $page->children()->first()->length(); ?>)</p>
-				</div>
+	<div class="video col-xs-12">
+		<iframe src="https://player.vimeo.com/video/<?php echo $page->children()->first()->vimeo() ?>?color=ffffff&portrait=0" width="1110" height="624" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<hr>
 	</div>
 </div>
 <div class="row">

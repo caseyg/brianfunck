@@ -4,16 +4,20 @@ Title: Film & TV Credits
 
 Text: 
 
-Full list available (link: http:// text: on IMDB)
-
 ## Reality TV
 
 *  One
 *  Two
 *  Three
 
+****
+
 ## Music Videos
 
 *  One
 *  Two
 *  Three
+
+****
+
+Full list available (link: http:// text: on IMDB)
