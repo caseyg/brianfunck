@@ -1,12 +1,14 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
-pages: true
-files: true
+title: Watch Clips
+pages:
+  template: clip
+files: false
 fields:
   title:
     label: Title
     type:  text
   text:
     label: Text
-    type:  markdown
+    type:  textarea
+    size:  large

@@ -7,9 +7,9 @@
 </div>
 <section class="posters row">
 	<?php foreach($page->children() as $page): ?>
-		<div class="poster col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		<div class="poster col-sm-4 col-xs-6">
 		<a href="<?php echo $page->url() ?>">
-			<img src="<?php echo $page->images()->filterBy('filename', '*=', 'logo')->first()->resize(400)->url() ?>" alt="<?php echo $page->title() ?>">
+			<img src="<?php echo $page->images()->sortBy('sort', 'ASC')->first()->resize(400)->url() ?>" alt="<?php echo $page->title() ?>">
 		</a>
 		</div>
 	<?php endforeach ?>

@@ -1,26 +1,30 @@
 @import "bootstrap";
 
 * {
-	background: rgba(0,0,0,.05);
+//	background: rgba(0,0,0,.05);
 }
 
-.row {
-	margin: 20px auto;
+.container {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 figure img, .posters img {
 	max-width: 100%;
 }
 
-hr {
-	border-top: 1px solid #fff;
+h1, h2 {
+    font-weight: 300;
+    margin-top: 0;
+	line-height: 1.4;
+	font-size: floor(($font-size-base * 1.15));
+	@media (min-width: $screen-sm-min) {
+		font-size: ($font-size-base * 1.5);
+	}
 }
 
-h1, h2, nav {
-	font-size: $font-size-large;
-	padding: 0;
-	margin: 0;
-	line-height: 20px;
+hr {
+	border-top: 1px solid #ccc;
 }
 
 .sidebar {
@@ -29,7 +33,7 @@ h1, h2, nav {
 }
 
 .poster {
-    margin: 15px 0 15px 0;
+    margin: 0 0 30px 0;
     line-height: 20px;
 }
 
@@ -65,6 +69,6 @@ object {
   cursor: pointer;
   margin-right:10px;
 }
-.gallery-nav .gallery-cell.is-nav-selected {
+.gallery-nav .gallery-cell.active {
   border: 5px solid #000;
 }

@@ -2,15 +2,7 @@
 
 title: Work
 pages: project
-files:
-  sortable: true
-  fields:
-    title:
-      label: Title
-      type: text
-    link:
-      label: Link
-      type: text
+files: false
 fields:
   title:
     label: Title
