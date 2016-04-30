@@ -12,6 +12,3 @@ fields:
   bio-long:
     label: The Longer Version
     type:  textarea
-  press:
-    label: Press
-    type:  markdown

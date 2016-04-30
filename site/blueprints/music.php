@@ -27,3 +27,6 @@ fields:
   text:
     label: Text
     type:  textarea
+  reviews:
+    label: Reviews
+    type:  textarea

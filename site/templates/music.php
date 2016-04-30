@@ -2,7 +2,7 @@
 
 <?php if(!$page->text()->empty()): ?>
 <div class="row">
-  <div class="text lead col-lg-offset-4 col-lg-7">
+  <div class="text lead col-xs-12">
     <?php echo $page->text()->kirbytext() ?>
   </div>
 </div>
@@ -18,5 +18,13 @@
     </div>
   <?php endforeach ?>
 </section>
+<?php if(!$page->reviews()->empty()): ?>
+<div class="row">
+  <div class="text col-xs-12">
+    <h2>Reviews</h2>
+    <?php echo $page->reviews()->kirbytext() ?>
+  </div>
+</div>
+<?php endif ?>
 
 <?php snippet('footer') ?>
