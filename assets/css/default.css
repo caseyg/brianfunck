@@ -5802,13 +5802,13 @@ button.close {
 figure img, .posters img {
   max-width: 100%; }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 300;
   margin-top: 0;
   line-height: 1.4;
   font-size: 18px; }
   @media (min-width: 768px) {
-    h1, h2 {
+    h1, h2, h3 {
       font-size: 24px; } }
 
 hr {
