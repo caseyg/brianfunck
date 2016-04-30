@@ -11,29 +11,31 @@
 <?php endif ?>
 <?php if($page->link_trailer()->isNotEmpty() || $page->link_clip()->isNotEmpty() || $page->link_film()->isNotEmpty()): ?>
 <div class="row">
-	<div class="col-xs-12">
-		<?php if(!$page->link_trailer()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_trailer() ?>">Watch Trailer</a><?php endif ?>
-		<?php if(!$page->link_clip()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_clip() ?>">Watch Clip</a><?php endif ?>
-		<?php if(!$page->link_film()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_film() ?>">Watch Film</a><?php endif ?>
+	<div class="col-sm-6 col-xs-12 watch-buttons">
+		<?php if(!$page->link_trailer()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_trailer() ?>" target="_blank">Watch Trailer</a><?php endif ?>
+		<?php if(!$page->link_clip()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_clip() ?>" target="_blank">Watch Clip</a><?php endif ?>
+		<?php if(!$page->link_film()->empty()): ?><a class="btn btn-primary" href="<?php echo $page->link_film() ?>" target="_blank">Watch Film</a><?php endif ?>
 	</div>
+	<?php if($company): ?>
+		<figure class="col-sm-6 col-xs-12 company">		<hr class="visible-xs">
+			<img src="<?php echo $company->resize(409,45)->url() ?>" alt="">
+		</figure>
+	<?php endif ?>
 </div>
 <?php endif ?>
 <?php if($page->reviews()->isNotEmpty()): ?>
 <div class="row">
 	<div class="col-xs-12">
 		<hr>
-		<h2>Reviews</h2>
 		<?php echo $page->reviews()->kt() ?>
 	</div>
 </div>
 <?php endif ?>
-<?php if($festivals): ?>
+<?php if($festival): ?>
 <div class="row">
-	<h2>Festivals &amp; Awards</h2>
-	<div class="posters">
-		<?php foreach($festival as $festival): ?>
-			<figure class="col-sm-4 col-xs-6 poster"><img src="<?php echo $festival->resize(400)->url() ?>" alt=""></figure>
-		<?php endforeach ?>
+	<div class="col-xs-12">
+		<hr>
+		<figure><img src="<?php echo $festival->url() ?>" alt=""></figure>
 	</div>
 </div>
 <?php endif ?>
@@ -54,15 +56,6 @@
 			<?php echo $page->credits()->kt() ?>
 		</section>
 	<?php endif ?>
-</div>
-<?php endif ?>
-<?php if($company->count() > 0): ?>
-<div class="row">
-	<div class="col-xs-12">
-		<hr>
-		<h2>Companies</h2>
-	</div>
-	<?php foreach($company as $company): ?><img class="col-sm-2 col-xs-4" src="<?php echo $company->resize(400)->url() ?>" alt=""><?php endforeach ?>
 </div>
 <?php endif ?>
 <?php snippet('footer') ?>

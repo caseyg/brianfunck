@@ -46,6 +46,16 @@ hr {
 	margin-bottom: 20px;
 }
 
+.company {
+	@media (min-width: $screen-sm-min) {
+		text-align: right;
+	}
+}
+
+.watch-buttons {
+	padding-top: 5px;
+}
+
 // Fitvids
 
 video {

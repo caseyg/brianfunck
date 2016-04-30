@@ -5829,6 +5829,13 @@ hr {
 .bio-photo {
   margin-bottom: 20px; }
 
+@media (min-width: 768px) {
+  .company {
+    text-align: right; } }
+
+.watch-buttons {
+  padding-top: 5px; }
+
 video {
   max-width: 100%;
   height: auto; }
