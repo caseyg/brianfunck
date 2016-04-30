@@ -52,8 +52,12 @@ hr {
 	}
 }
 
-.watch-buttons {
+.watch-buttons, .store-links {
 	padding-top: 5px;
+}
+
+.store-links a {
+	white-space: nowrap;
 }
 
 // Fitvids
