@@ -4,16 +4,53 @@ Title: Film & TV Credits
 
 Text: 
 
+<font size="+3">**CREDITS**</font> <font size="-1">*(picture editor unless noted)*</font>
+
+
+<font size="+2">**DOCUMENTARY**</font>
+	• "Chasing Heroin" **PBS / Frontline** <font size="-1">*(co-producer & co-editor)*</font> 
+	• "My Brother's Bomber" **PBS / Frontline** <font size="-1">*(co-producer & editor)*</font> 
+	• "Ripley: Believe It or Not"					**PBS / American Experience			**
+	• "Happy Valley"						**A&E Indie Films / Music Box Films		**
+	• "War of the Worlds"						**PBS / American Experience			**
+	• "After the Fall: HIV Grows Up" **Tomorrow Pictures	** <font size="-1">*(editor & co-writer)*</font>
+	• "Endgame: AIDS in Black America"				**PBS / Frontline		**		
+	• "The Atomic Artists"						**PBS / Frontline		**		
+	• "Doctor Hotspot"						**PBS / Frontline		**
+	• "Making Stuff: Smaller" 					**PBS / Nova	**
+	• "I.M. Pei: Building China Modern" **PBS / American Masters** <font size="-1">*(editor & co-writer)*</font>
+	• "Build it Bigger"						**Science Channel				**
+	• "Notes From the Edge of Life" **Discovery Channel** <font size="-1">*(producer & editor)*</font>				
+	• "Goal Keepers" **Deutsche-Welle TV**	<font size="-1">*(editor & co-writer)*</font>
+	• "America's Heart & Soul"					**Walt Disney Pictures		**		
+	• "Untold Stories from the ER"					**The Learning Channel			**
+	• "Total Fear"							**Animal Planet			**		
+	• "America"							**Hallmark Channel**
+	• "American Terrorist" **PBS / Frontline** <font size="-1">*(additional editor)*</font>
+	• "Beer Wars" **Ducks in a Row Entertainment** <font size="-1">*(additional editor)*</font>
+	• "Making Stuff: Safer" **PBS / Nova** <font size="-1">*(additional editor)*</font>
+
+<font size="+2">**REALITY TV</font>
+**	• "American Chopper"					**Discovery Channel		**	      	
+	• "Dirty Jobs"					**		Discovery Channel	**
+	• "The Cut"							**CBS			**		
+	• "American Hotrod"						**Discovery Channel		**		
+	• "Sliced"							**History Channel		**
+
+
+<font size="+2">**SHORT FILM</font>
+**	• "Tools for Historical Imagination: Jury Duty"			**Plus One Pictures	**	      		
+	• "Carjacking"					**		Monte Mar Films	**			
+	• "The Newman Shower" **American Film Institute	**	<font size="-1">*(additional editor)*</font>
+
+
+<font size="+2">**MUSIC VIDEO</font>
+**	• The Gift – "11.33"						**Universal Music	     ** 			
+	• Dave Hollister – "Keep Lovin' You" 				**Motown Records				**
+	• Matthew  – "Everybody Down"				**Rykodisc** 					
+	• Kasey Chambers – "Not Pretty Enough"			**Warner Bros. Records**			
+
+
+****
+
 Full list available (link: http:// text: on IMDB)
-
-## Reality TV
-
-*  One
-*  Two
-*  Three
-
-## Music Videos
-
-*  One
-*  Two
-*  Three
