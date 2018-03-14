@@ -7,8 +7,5 @@ fields:
     label: Title
     type:  text
   bio-short:
-    label: The Shorter Version
-    type:  textarea
-  bio-long:
-    label: The Longer Version
+    label: Bio
     type:  textarea
