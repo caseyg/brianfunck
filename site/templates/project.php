@@ -18,7 +18,7 @@
 	</div>
 	<?php if($company): ?>
 		<figure class="col-sm-6 col-xs-12 company">		<hr class="visible-xs">
-			<img src="<?php echo $company->resize(200,45)->url() ?>" alt="">
+			<img src="<?php echo $company->resize(400,90)->url() ?>" width="<?php echo $company->resize(200,45)->width() ?>" height="<?php echo $company->resize(200,45)->height() ?>">
 		</figure>
 	<?php endif ?>
 </div>
