@@ -22,7 +22,7 @@ Link-film: http://www.pbs.org/wgbh/americanexperience/films/ripley/
 
 ----
 
-Link-clip: 
+Link-clip: https://vimeo.com/259788229/3dca4e1ad8
 
 ----
 
