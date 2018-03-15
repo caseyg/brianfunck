@@ -35,7 +35,7 @@
 <div class="row">
 	<div class="col-xs-12">
 		<hr>
-		<figure><img src="<?php echo $festival->resize(848,82)->url() ?>" alt=""></figure>
+		<figure><img src="<?php echo $festival->resize(1996,164)->url() ?>" width="<?php echo $festival->resize(848,82)->width() ?>" height="<?php echo $festival->resize(848,82)->height() ?>"></figure>
 	</div>
 </div>
 <?php endif ?>
